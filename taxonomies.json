@@ -13,9 +13,32 @@
         },
 
     "fine_labels": {
-        "person": "name: default when no finer classification applies or is possible. The most usual.\nauthor: A person clearly mentioned in relation to works they have authored. This tag may be modified or even omitted for project-specific goals.\nancestry: A designation or expression that refers unambiguously to one individual by using a family name, patronymic, matronymic, or other indication of lineage or familial relationships.\nepithet: A capitalized epithet used to refer unambiguously to one individual, including nicknames, titles, and other appellatives.\nethnic: An ethnonym, demonym, or other word used to identify persons by means of their membership to a geographically or ethnically defined group. This tag is exclusively used with persons or collectives, as ethnics are mainly used in the ancient world to identify individuals via ethnic memberships.\nderivative: An adjective derived from a personal name, used to identify things that are not individuals or collectives. Only the derivative is annotated, as the common noun in the expression does not act as a rigid designator.",
-        "place": "name: default when no finer classification applies or is possible. The most usual.\nastronomy: Named stars, constellations, and planets.\nepithet: A capitalized epithet used to refer unambiguously to one location, including nicknames, titles, and other appellatives.\nderivative: An adjective derived from a toponym, used to identify things that are not locations or collectives. Only the derivative is annotated, as the common noun in the expression does not act as a rigid designator.",
-        "collective": "name: default when no finer classification applies or is possible. The most usual.\nancestry: A designation or expression that refers unambiguously to one group of individuals by using a family name, patronymic, matronymic, or other indication of lineage or familial relationships.\nanimal: A collective of creatures clearly identifiable with an animal species.\nastronomy: Named groups of stars, constellations, and planets.\nethnic: An ethnonym, demonym, or other word used to identify collectives by means of their membership to a geographically or ethnically defined group. This tag is exclusively used with collectives, as ethnics are mainly used in the ancient world to identify individuals via ethnic memberships.\norganization: A collective that is an organization (e.g., a military unit).\nepithet: A capitalized epithet used to refer unambiguously to one collective, including nicknames, titles, and other appellatives.\nderivative: An adjective derived from a group name used to identify things that are not individuals or collectives. Only the derivative is annotated, as the common noun in the expression does not act as a rigid designator.",
-        "creature": "name: default when no finer classification applies or is possible. The most usual.\nanimal: A creature clearly identifiable with an animal species.\nastronomy: Named stars, groups of stars, constellations, and planets."
+        "creature": "mythical or real precisely identifiable non-human, non-anthropomorphic creatures",
+        "creature.animal": "A creature clearly identifiable with an animal species",
+        "creature.astronomy": "Named stars, groups of stars, constellations, and planets",
+        "person": "any identifiable single individual, including deities and anthropomorphic mythological figures",
+        "person.author": "A person clearly mentioned in relation to works they have authored. This tag may be modified or even omitted for project-specific goals",
+        "person.ancestry": "A designation or expression that refers unambiguously to one individual by using a family name, patronymic, matronymic, or other indication of lineage or familial relationships",
+        "person.epithet": "A capitalized epithet used to refer unambiguously to one individual, including nicknames, titles, and other appellatives.",
+        "person.ethnic": "An ethnonym, demonym, or other word used to identify persons by means of their membership to a geographically or ethnically defined group. This tag is exclusively used with persons or collectives, as ethnics are mainly used in the ancient world to identify individuals via ethnic memberships",
+        "person.derivative": "An adjective derived from a personal name, used to identify things that are not individuals or collectives. Only the derivative is annotated, as the common noun in the expression does not act as a rigid designator",
+        "place": "a politically, culturally, or geographically defined location, including fictional spaces and structures like temples, buildings, specific urban areas (e.g., gymnasia), and houses",
+        "place.astronomy": "Named stars, constellations, and planets",
+        "place.epithet": "A capitalized epithet used to refer unambiguously to one location, including nicknames, titles, and other appellatives",
+        "place.derivative": "An adjective derived from a toponym, used to identify things that are not locations or collectives. Only the derivative is annotated, as the common noun in the expression does not act as a rigid designator",
+        "collective": "a named group of people or other creatures with shared identifiable characteristics on social, intellectual, political, national, family, mythical, or ethnic basis",
+        "collective.ancestry": "A designation or expression that refers unambiguously to one group of individuals by using a family name, patronymic, matronymic, or other indication of lineage or familial relationships",
+        "collective.animal": "A collective of creatures clearly identifiable with an animal species",
+        "collective.astronomy": "Named groups of stars, constellations, and planets",
+        "collective.ethnic": "An ethnonym, demonym, or other word used to identify collectives by means of their membership to a geographically or ethnically defined group. This tag is exclusively used with collectives, as ethnics are mainly used in the ancient world to identify individuals",
+        "collective.organization": "A collective that is an organization (e.g., a military unit)",
+        "collective.epithet": "A capitalized epithet used to refer unambiguously to one collective, including nicknames, titles, and other appellatives",
+        "collective.derivative": "An adjective derived from a group name used to identify things that are not individuals or collectives. Only the derivative is annotated, as the common noun in the expression does not act as a rigid designator",
+        "event": "significant named events identified by a string with a precise boundary",
+        "language": "languages and dialects clearly identified as such",
+        "object": "artifacts or groups of artifacts clearly identified with a name, such as ships, weapons, statues, columns, dedications, etc",
+        "time": "any absolute date or time expression",
+        "work": "titles of literary or non-literary works, in any form",
+        "miscellaneous": "entities that do not (yet) have a specific first-level tag among those provided"
     }
 }
