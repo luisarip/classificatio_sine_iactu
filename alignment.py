@@ -123,6 +123,14 @@ def align_english(df_results, tsv_df, column_name='bio_tag'):
     # Apply padding to English sentences
     df_results["sentences_en"] = df_results["sentences_en"].apply(pad_punctuation)
     
+    # Robust fix: if some English sentence is missing, replace with Latin one
+    df_results["sentences_en"] = df_results.apply(
+        lambda row: row["sentences_la"]
+        if not isinstance(row["sentences_en"], str) or row["sentences_en"] is None
+        else row["sentences_en"],
+        axis=1
+    )
+
     # Step 1: Get alignments
     mapping = []
     for idx, row in df_results.iterrows():
