@@ -12,3 +12,5 @@ The .py files are not called directly as scripts, so that users can import and e
 - In `rule_based_processor.py` I included all the rule-based correctors I applied to post-process the results: in `filter_entities`, all entities below a confidence threshold are filtered out, and the function `enforce_label_consistency` ensures consistent label assignment across mentions of the same entity. 
 
 - `from alignment import align_latin, align_english`: Two different functions perform the alignment, depending on whether the text has been translated. In case of working with translated English text, the alignment is performed using [simalign](https://github.com/cisnlp/simalign) with [UGARIT/grc-alignment](https://huggingface.co/UGARIT/grc-alignment) embeddings. Entities that are not uppercased are filtered out, and the results are converted to BIO format and projected back onto the original TSV.
+
+There is a Jupyter Notebook containing examples of usage in the "example" folder. 
