@@ -14,3 +14,7 @@ The .py files are not called directly as scripts, so that users can import and e
 - `from alignment import align_latin, align_english`: Two different functions perform the alignment, depending on whether the text has been translated. In case of working with translated English text, the alignment is performed using [simalign](https://github.com/cisnlp/simalign) with [UGARIT/grc-alignment](https://huggingface.co/UGARIT/grc-alignment) embeddings. Entities that are not uppercased are filtered out, and the results are converted to BIO format and projected back onto the original TSV.
 
 There is a Jupyter Notebook containing examples of usage in the "example" folder. 
+
+### Declaration on AI
+
+During the preparation of this repository, the authors used the models ChatGPT 5, Claude Sonet 4.5 and 4.6, Gemini 3.1 Pro, and Copilot 4, in order to draft code, debug errors, and improve code efficiency. The authors reviewed and edited the content as needed and take full responsibility for the publication’s content.
