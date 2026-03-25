@@ -1,5 +1,11 @@
-# classificatio_sine_iactu
-Zero-Shot NERC in Latin with GLiNER2
+# Classificatio Sine Iactu — That Is, Zero-Shot NERC in Latin with GLiNER2
+Developed by Luisa Ripoll-Alberola<sup>1,3</sup>, Fernando Nicolás-Flores<sup>2</sup> and Francisco Javier Muñoz Acebes<sup>3</sup> 
+
+<sup>1</sup>Computational Humanities, Leipzig University
+
+<sup>2</sup>Departamento de Prehistoria, Arqueología, Historia Antigua, Filología Griega y Filología Latina, Universidad de Alicante 
+
+<sup>3</sup>Filología Digital, Universidad de Valladolid
 
 Each .py file is a module containing one or more functions, intended to be imported rather than run directly as a script — for example, `translator.py` contains `translate_latin_to_english` but can be extended with additional translation backends.
 
