@@ -1,4 +1,4 @@
-# Classificatio Sine Iactu — That Is, Zero-Shot NERC in Latin with GLiNER2
+# Classificatio Sine Iactu — That Is, Zero-Shot NERC in Latin
 Developed by Luisa Ripoll-Alberola<sup>1,3</sup>, Fernando Nicolás-Flores<sup>2</sup> and Francisco Javier Muñoz Acebes<sup>3</sup> 
 
 <sup>1</sup>Computational Humanities, Leipzig University
@@ -24,3 +24,17 @@ There is a Jupyter Notebook containing examples of usage in the "example" folder
 ### Declaration on AI
 
 During the preparation of this repository, the authors used the models ChatGPT 5, Claude Sonnet 4.5 and 4.6, Gemini 3.1 Pro, and Copilot 4, in order to draft code, debug errors, and improve code efficiency. The authors reviewed and edited the content as needed and take full responsibility for the publication’s content.
+
+### Citation
+
+If you use this work in your research, please cite our paper:
+```bibtex
+@inproceedings{ripoll-alberola-evalatin-2026,
+  author    = {Ripoll-Alberola, Luisa and Nicolás-Flores, Fernando and Muñoz Acebes, Francisco Javier},
+  title     = {Classificatio Sine Iactu — That Is, Zero-Shot NERC in Latin},
+  booktitle = {Proceedings of the Fourth Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA) @ LREC 2026},
+  year      = {2026},
+  address   = {Palma de Mallorca, Spain},
+  publisher = {ELRA and ICCL}
+}
+```
